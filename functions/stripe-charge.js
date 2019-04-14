@@ -19,6 +19,6 @@ exports.handler = async function (event) {
         amount,
         name,
         description,
-        currency: 'gbp'
+        currency: 'usd'
     })
 }
