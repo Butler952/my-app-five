@@ -38,7 +38,7 @@ handlePurchase = (token) => {
     amount
   }
 
-  fetch('http://localhost:9000/stripe-charge', {
+  fetch('https://naughty-murdock-aba3ef.netlify.com/stripe-charge', {
     method: 'POST',
     body: JSON.stringify(bodyObject)
   })
