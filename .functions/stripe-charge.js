@@ -94,7 +94,7 @@ exports.handler = (() => {
             amount,
             name,
             description,
-            currency: 'gbp'
+            currency: 'usd'
         });
     });
 
